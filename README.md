@@ -16,6 +16,20 @@ often make use of obscure Python packages. Instead of listing them here, we'll i
 comments in the notebooks themselves regarding how those packages were installed
 in the Anaconda environment.
 
+## Useful documentation
+Here are resources we've found useful in building these notebooks:
+* [Requests](https://requests.readthedocs.io/en/master/user/quickstart/): An HTTP/S request package
+* [Basemap](https://basemaptutorial.readthedocs.io/en/latest/): A tool for drawing georeferenced maps.
+* [PyDAP](https://www.pydap.org/en/latest/client.html): A flexible tool for accessing data from OPeNDAP servers.
+* [matplotlib](https://matplotlib.org/3.2.1/contents.html): The plotter of choice for many.
+* [matplotlib basemap](https://matplotlib.org/basemap/index.html): Soon to be deprecated for several years now...
+* [Cartopy](https://scitools.org.uk/cartopy/docs/latest/): The successor to Basemap.
+* [Markdown for notebooks](https://medium.com/ibm-data-science-experience/markdown-for-jupyter-notebooks-cheatsheet-386c05aeebed): Just in case you need a primer..
+
+Collections of Jupyter notebooks that demonstrate various OPeNDAP servers.
+* [CloudyDAP notebooks](https://github.com/OPENDAP/cloudydap/tree/master/python): Written by Joe Lee from The HDF Group.
+* [PyDAP Examples](https://github.com/betodealmeida/notebooks): Written by Beto DiAlmeida, author of PyDAP.
+
 ## Geospatial data subsetting
 The first notebook illustrates subsetting regularly gridded data (i.e., NASA's Processing
 Level 3) using Latitude and Longitude values instead of raw array indices.
