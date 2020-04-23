@@ -1,0 +1,11 @@
+name: notebooks-env
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - requests
+  - pydap
+  - numpy
+  - matplotlib
+  - basemap
+  
