@@ -34,4 +34,4 @@ Collections of Jupyter notebooks that demonstrate various OPeNDAP servers.
 The first notebook illustrates subsetting regularly gridded data (i.e., NASA's Processing
 Level 3) using Latitude and Longitude values instead of raw array indices.
 
-[Geospatial subsetting using server functions](Geospatial subsetting using server functions.ipynb)
+[Geospatial subsetting using server functions](./Geospatial subsetting using server functions.ipynb)
