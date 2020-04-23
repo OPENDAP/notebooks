@@ -1,0 +1,5 @@
+requests
+pydap
+matplotlib
+numpy
+mpl_toolkits.basemap
