@@ -26,7 +26,8 @@ Here are resources we've found useful in building these notebooks:
 * [Cartopy](https://scitools.org.uk/cartopy/docs/latest/): The successor to Basemap.
 * [Markdown for notebooks](https://medium.com/ibm-data-science-experience/markdown-for-jupyter-notebooks-cheatsheet-386c05aeebed): Just in case you need a primer..
 
-Collections of Jupyter notebooks that demonstrate various OPeNDAP servers.
+Collections of Jupyter notebooks that also demonstrate OPeNDAP. There are many others, but these will get you
+started with access patterns that don't use server functions:
 * [CloudyDAP notebooks](https://github.com/OPENDAP/cloudydap/tree/master/python): Written by Joe Lee from The HDF Group.
 * [PyDAP Examples](https://github.com/betodealmeida/notebooks): Written by Beto DiAlmeida, author of PyDAP.
 
