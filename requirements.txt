@@ -1,6 +1,0 @@
-requests
-pydap
-matplotlib
-numpy
-basemap
-basemap-data-highres
