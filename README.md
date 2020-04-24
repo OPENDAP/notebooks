@@ -24,7 +24,7 @@ often make use of obscure Python packages. Instead of listing them here, we'll i
 comments in the notebooks themselves regarding how those packages were installed
 in the Anaconda environment.
 
-### Anaconda tricks 
+### Anaconda tricks - for OPeNDAP develoeprs
 Anaconda modifies `.bash_profile` when it installs
 an will set any shell to use the anaconda base environment by default,
 modifying PATH to use its packages in preference to anything else (and
