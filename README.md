@@ -13,7 +13,7 @@ of the same name since it may have more notebooks illustrating more functions.
 The first notebook illustrates subsetting regularly gridded data (i.e., NASA's Processing
 Level 3) using Latitude and Longitude values instead of raw array indices.
 
-* [Geospatial subsetting using server functions](https://github.com/OPENDAP/notebooks/Geospatial%20subsetting%20using%20server%20functions.ipynb)
+* [Geospatial subsetting using server functions](https://github.com/OPENDAP/notebooks/Geospatial\ subsetting\ using\ server\ functions.ipynb)
 
 ## What's needed to run these
 To develop these notebooks, we use Anaconda to establish a local package management
