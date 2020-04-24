@@ -1,11 +1,11 @@
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OPENDAP/notebooks/master)
 # Hyrax server functions
 This repository holds a collection of Jupyter notebooks that demonstrate how to
 use Server functions, an often overlooked feature of the Hyrax data server, to
 perform different kinds of processing and subsetting operations on data _before_
 they leave a server.
 
-Run these notebooks using Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OPENDAP/notebooks/master)
+Run these notebooks using [Binder](https://mybinder.org/v2/gh/OPENDAP/notebooks/master).
 
 This project was started at part of the ESDIS PI 20.1 hackfest. If you're reading this
 from the [NASA ECC BitBucket repository](https://git.earthdata.nasa.gov/scm/hyrax/notebooks.git), please checkout the [OPeNDAP GitHub repo](https://github.com/OPENDAP/notebooks.git)
