@@ -1,0 +1,10 @@
+##
+## See https://pip.pypa.io/en/stable/reference/pip_install/
+## for information on what you can put in a requirements file.
+##
+
+requests
+pydap
+numpy
+matplotlib
+basemap
