@@ -51,6 +51,7 @@ Here are resources we've found useful in building these notebooks:
 * [matplotlib basemap](https://matplotlib.org/basemap/index.html): Soon to be deprecated for several years now...
 * [Cartopy](https://scitools.org.uk/cartopy/docs/latest/): The successor to Basemap.
 * [Markdown for notebooks](https://medium.com/ibm-data-science-experience/markdown-for-jupyter-notebooks-cheatsheet-386c05aeebed): Just in case you need a primer..
+* [Binder](https://mybinder.org/) Documentation is at the bottom of the page.
 
 Collections of Jupyter notebooks that also demonstrate OPeNDAP. There are many others, but these will get you
 started with access patterns that don't use server functions:
