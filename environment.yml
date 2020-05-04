@@ -1,4 +1,4 @@
-name: notebooks-env
+name: opendap
 channels:
   - conda-forge
 dependencies:

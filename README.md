@@ -42,6 +42,11 @@ function conda-on() {
 
 To turn on Anaconda, just run `conda-on`
 
+To use the environment.yml file to make an environment with the packages needed
+to run the notebooks, use `conda env create`. See 
+[Managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+for more information about managing environments with `conda`.
+
 ## Useful documentation
 Here are resources we've found useful in building these notebooks:
 * [Requests](https://requests.readthedocs.io/en/master/user/quickstart/): An HTTP/S request package

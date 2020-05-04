@@ -2,6 +2,9 @@
 ## See https://pip.pypa.io/en/stable/reference/pip_install/
 ## for information on what you can put in a requirements file.
 ##
+## This doesn't work, however, because Basemap won't load
+## with pip.
+##
 
 requests
 pydap
