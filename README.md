@@ -55,6 +55,8 @@ Here are resources we've found useful in building these notebooks:
 * [matplotlib](https://matplotlib.org/3.2.1/contents.html): The plotter of choice for many.
 * [matplotlib basemap](https://matplotlib.org/basemap/index.html): Soon to be deprecated for several years now...
 * [Cartopy](https://scitools.org.uk/cartopy/docs/latest/): The successor to Basemap.
+* [Cartopy Basics](https://scitools.org.uk/cartopy/docs/v0.15/matplotlib/intro.html)
+* [Cartopy more...](https://scitools.org.uk/cartopy/docs/v0.15/matplotlib/advanced_plotting.html)
 * [Markdown for notebooks](https://medium.com/ibm-data-science-experience/markdown-for-jupyter-notebooks-cheatsheet-386c05aeebed): Just in case you need a primer..
 * [Binder](https://mybinder.org/) Documentation is at the bottom of the page.
 
