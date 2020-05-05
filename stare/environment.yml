@@ -1,0 +1,15 @@
+name: opendap
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - numpy
+  - basemap
+  - ipykernel
+  - h5py
+  - pip:
+    - requests
+    # - pydap
+    - maptplotlib
+    - cartopy
