@@ -1,3 +1,10 @@
+# Before using this with conda env, you will need to define the
+# environment variable USE_OMP as 'export USE_OMP=0' to get pykdtree
+# to install on OSX 10.13.x (and other versions of OSX?). Also 
+# note that while conda will try to install cartopy, I could not
+# get it to install the lastest version (0.18.0, 5/7/20) but I 
+# get pip to install it.
+
 name: opendap
 channels:
   - conda-forge
@@ -5,11 +12,10 @@ channels:
 dependencies:
   - pip
   - numpy
-  - basemap
-  - ipykernel
   - h5py
+  - scipy
+  - ipykernel
   - pip:
-    - requests
-    # - pydap
     - maptplotlib
     - cartopy
+    - pykdtree
