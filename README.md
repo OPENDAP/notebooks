@@ -70,6 +70,7 @@ Conda environment management:
 
 ## Useful documentation
 Here are resources we've found useful in building these notebooks:
+* [Advanced Jupyter Notebook Tricks — Part I](https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/): Various magic codes like %time
 * [Requests](https://requests.readthedocs.io/en/master/user/quickstart/): An HTTP/S request package
 * [Basemap](https://basemaptutorial.readthedocs.io/en/latest/): A tool for drawing georeferenced maps.
 * [PyDAP](https://www.pydap.org/en/latest/client.html): A flexible tool for accessing data from OPeNDAP servers.
