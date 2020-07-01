@@ -50,7 +50,12 @@ function conda-on() {
 To turn on Anaconda, just run `conda-on`
 
 To use the environment.yml file to make an environment with the packages needed
-to run the notebooks, use `conda env create`. See 
+to run the notebooks, use `conda env create -f environment.yml`. The general form of this 
+command is `conda env create -n conda-env -f /path/to/environment.yml`. The `conda ...` 
+command can also update an existing environment using the packages in a yml file with 
+`conda env update -n conda-env -f /path/to/environment.yml`.
+
+See 
 [Managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 for more information about managing environments with `conda`.
 
