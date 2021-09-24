@@ -16,7 +16,7 @@ Added 9/24/21
 
 Subsetting level 2 satellite data generally requires regridding. However, using STARE and
 Hyrax server-side function, these data can be subset without first regridding them. See
-[Subsetting Level 2 Data without Regridding]()
+[Subsetting Level 2 Data without Regridding](https://github.com/OPENDAP/notebooks/blob/master/stare/STARE_Subsetting_Using_lat_lon.ipynb)
 for a notebook that demonstrates these new features that are the result of a NASA ACCESS
 grant in collaboration with Rilee, Inc., Bayesics, Inc., and UCSB.
 
