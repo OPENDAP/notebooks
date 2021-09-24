@@ -11,6 +11,15 @@ This project was started at part of the ESDIS PI 20.1 hackfest. If you're readin
 from the [NASA ECC BitBucket repository](https://git.earthdata.nasa.gov/scm/hyrax/notebooks.git), please checkout the [OPeNDAP GitHub repo](https://github.com/OPENDAP/notebooks.git)
 of the same name since it may have more notebooks illustrating more functions.
 
+## Geospatial data subsetting without regridding
+Added 9/24/21
+
+Subsetting level 2 satellite data generally requires regridding. However, using STARE and
+Hyrax server-side function, these data can be subset without first regridding them. See
+[Subsetting Level 2 Data without Regridding]()
+for a notebook that demonstrates these new features that are the result of a NASA ACCESS
+grant in collaboration with Rilee, Inc., Bayesics, Inc., and UCSB.
+
 ## Geospatial data subsetting
 The first notebook illustrates subsetting regularly gridded data (i.e., NASA's Processing
 Level 3) using Latitude and Longitude values instead of raw array indices.
