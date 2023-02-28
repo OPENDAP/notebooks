@@ -73,7 +73,7 @@ While an `environment.yml` file does not need to mention jupyter to work with Bi
 to build an environment that includes jupyter notebook support, I added `ipykernel` to the `environment.yml` 
 file. However, I didn't test that; it's a hunch based on my running two commands:
 1. `conda install -n opendap ipykernel` # the environment name is 'opendap'
-2. `python -m ipykernel install --user --name "opendap" --display-name "Python (opendap)"
+2. `python -m ipykernel install --user --name "opendap" --display-name "Python (opendap)"`
 
 The latter adds a new menu item to the 
 
