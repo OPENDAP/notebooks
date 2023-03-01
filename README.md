@@ -75,12 +75,95 @@ file. However, I didn't test that; it's a hunch based on my running two commands
 1. `conda install -n opendap ipykernel` # the environment name is 'opendap'
 2. `python -m ipykernel install --user --name "opendap" --display-name "Python (opendap)"`
 
-The latter adds a new menu item to the 
+#### My Experience OS-X 13.2.1 02/28/2023 - ndp
+I did the above but nothing seemed to work. Strange error messages from `jupyter` 
+when I try to start the notebook. I checked on the jupyter version and I saw this:
+```shell
+(opendap) [-bash: ~] jupyter  --version
+Selected Jupyter core packages...
+IPython          : 8.10.0
+ipykernel        : 6.19.2
+ipywidgets       : not installed
+jupyter_client   : 7.4.9
+jupyter_core     : 5.2.0
+jupyter_server   : not installed
+jupyterlab       : not installed
+nbclient         : not installed
+nbconvert        : not installed
+nbformat         : not installed
+notebook         : not installed
+qtconsole        : not installed
+traitlets        : 5.7.1
+```
+So I tried installing each thing, and then checking the version. Some things, 
+like `ipywidgets` installed a bunch of the other missing pieces.
+```shell
+(opendap) [-bash: ~] conda install ipywidgets
+(opendap) [-bash: ~] jupyter  --version
+Selected Jupyter core packages...
+IPython          : 8.10.0
+ipykernel        : 6.19.2
+ipywidgets       : 7.6.5
+jupyter_client   : 7.4.9
+jupyter_core     : 5.2.0
+jupyter_server   : 1.23.4
+jupyterlab       : not installed
+nbclient         : 0.5.13
+nbconvert        : 6.4.4
+nbformat         : 5.7.0
+notebook         : 6.5.2
+qtconsole        : not installed
+traitlets        : 5.7.1
+(opendap) [-bash: ~] conda install jupyterlab
+(opendap) [-bash: ~] jupyter  --version
+Selected Jupyter core packages...
+IPython          : 8.10.0
+ipykernel        : 6.19.2
+ipywidgets       : 7.6.5
+jupyter_client   : 7.4.9
+jupyter_core     : 5.2.0
+jupyter_server   : 1.23.4
+jupyterlab       : 3.5.3
+nbclient         : 0.5.13
+nbconvert        : 6.4.4
+nbformat         : 5.7.0
+notebook         : 6.5.2
+qtconsole        : not installed
+traitlets        : 5.7.1
+(opendap) [-bash: ~] conda install qtconsole
+(opendap) [-bash: ~] 
+(opendap) [-bash: ~] jupyter  --version
+Selected Jupyter core packages...
+IPython          : 8.10.0
+ipykernel        : 6.19.2
+ipywidgets       : 7.6.5
+jupyter_client   : 7.4.9
+jupyter_core     : 5.2.0
+jupyter_server   : 1.23.4
+jupyterlab       : 3.5.3
+nbclient         : 0.5.13
+nbconvert        : 6.4.4
+nbformat         : 5.7.0
+notebook         : 6.5.2
+qtconsole        : 5.4.0
+traitlets        : 5.7.1
+(opendap) [-bash: ~/OPeNDAP/hyrax/notebooks] 
+```
+And then everything worked! 
 
-Conda environment management:
+
+### Conda environment management
 * [Guide to Conda Environments](https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533)
 * [Managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
+## Starting the notebooks
+Once you have gotten everything installed (see previous section) you run the 
+notebooks from the command line like this:
+
+```bash
+jupyter notebook Geospatial_subsetting_using_server_functions.ipynb
+jupyter notebook tutorials/pydap_dap2_basic.ipynb
+```
 
 ## Useful documentation
 Here are resources we've found useful in building these notebooks:
