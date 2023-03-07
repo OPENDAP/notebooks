@@ -95,7 +95,7 @@ notebook         : not installed
 qtconsole        : not installed
 traitlets        : 5.7.1
 ```
-So I tried installing each thing, and then checking the version. Some things, 
+So I tried installing each missing thing, and then re-checking the version. Some things, 
 like `ipywidgets` installed a bunch of the other missing pieces.
 ```shell
 (opendap) [-bash: ~] conda install ipywidgets
