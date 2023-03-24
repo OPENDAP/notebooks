@@ -7,5 +7,7 @@ dependencies:
   - pydap
   - numpy
   - matplotlib
-  - basemap
+  - h5py
+  
+#  - basemap
   
