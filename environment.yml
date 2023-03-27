@@ -5,7 +5,11 @@ dependencies:
   - pip
   - requests
   - pydap
+  - netCDF4
+  - h5py
   - numpy
   - matplotlib
   - basemap
+  - cartopy
+
   
