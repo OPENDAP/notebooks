@@ -33,6 +33,9 @@ in the `stare` subdirectory for information about setting up the environment. Th
 
 * [STARE]()
 
+## A Jupyter Notebook Markdown guide
+[Jupyter Notebook Markdown](https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet)
+
 ## What's needed to run these
 To develop these notebooks, we use Anaconda to establish a local package management
 environment. Get and install Anaconda. All our work uses Python 3. Jupyter notebooks
