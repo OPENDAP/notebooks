@@ -24,4 +24,7 @@ For the xarray/netcdf notebook, add
 
 	pip install xarray
 
+7/10/23
 
+I added pip-tools so that requirements.in --> requirements.txt works.
+This should streamline running the notebooks using binder.
